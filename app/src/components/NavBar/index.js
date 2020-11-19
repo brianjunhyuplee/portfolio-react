@@ -4,6 +4,7 @@ import "./style.css"
 function Navbar() {
     return(
         <nav class="navbar navbar-dark bg-dark">
+            <div>
             <ul className="navbar-nav mr-auto">
                 <li class="navbar-item">
                     <Link to="/">Home</Link>
@@ -16,6 +17,7 @@ function Navbar() {
                 </li>
                 
             </ul>
+            </div>
         </nav>
     )
 }

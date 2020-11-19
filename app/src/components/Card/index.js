@@ -6,7 +6,7 @@ function Card(props) {
         <div className="card">
             <div className="card-header">{props.name}</div>
             <div className="card-body">
-               <img src={props.image} alt={props.name} href={props.link}></img>
+               <a href={props.link}><img style={{ width: "500px" }} src={props.image} alt={props.name}></img></a>
             </div>
         </div>
         <br></br>

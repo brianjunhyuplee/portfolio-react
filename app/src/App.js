@@ -14,12 +14,12 @@ function App() {
     <Route exact path="/">
        <Home /> 
     </Route>
-    {/* <Route exact path="/portfolio">
+    <Route exact path="/portfolio">
       <Portfolio />
     </Route>
     <Route exact path="/contact">
       <Contact />
-    </Route> */}
+    </Route>
   </Switch>
   <Footer />
   </Router>

@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import AboutMe from "./pages/home";
+import Home from "./pages/home.js";
 import Portfolio from "./pages/portfolio";
 import Contact from "./pages/contact";
 function App() {
@@ -12,14 +12,14 @@ function App() {
   <Navbar />
   <Switch>
     <Route exact path="/">
-      <AboutMe />
+       <Home /> 
     </Route>
-    <Route exact path="/portfolio">
+    {/* <Route exact path="/portfolio">
       <Portfolio />
     </Route>
     <Route exact path="/contact">
       <Contact />
-    </Route>
+    </Route> */}
   </Switch>
   <Footer />
   </Router>

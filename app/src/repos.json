@@ -2,25 +2,25 @@
     {
         "id" : 1,
         "name" : "Woof",
-        "image" : "../images/search.gif",
+        "image" : "https://i.ibb.co/jk1vjxR/search-1.gif",
         "link" : "https://github.com/brianjunhyuplee/Woof"
     },
     {
         "id" : 2,
         "name" : "Burger App",
-        "image" : "https://github.com/brianjunhyuplee/burger/blob/main/public/assets/images/web.png",
+        "image" : "https://raw.githubusercontent.com/brianjunhyuplee/burger/main/public/assets/images/web.png",
         "link" : "https://github.com/brianjunhyuplee/burger"
     },
     {
         "id" : 3,
         "name" : "Password Generator",
-        "image" : "https://github.com/brianjunhyuplee/password_generator/blob/master/assets/images/web.png",
+        "image" : "https://raw.githubusercontent.com/brianjunhyuplee/password_generator/master/assets/images/web.png",
         "link" : "https://github.com/brianjunhyuplee/password_generator"
     },
     {
         "id" : 4,
         "name" : "Quiz Site",
-        "image" : "https://github.com/brianjunhyuplee/quiz-site/blob/master/assets/images/web.png",
+        "image" : "https://raw.githubusercontent.com/brianjunhyuplee/quiz-site/master/assets/images/web.png",
         "link" : "https://github.com/brianjunhyuplee/quiz-site"
     }
 ]

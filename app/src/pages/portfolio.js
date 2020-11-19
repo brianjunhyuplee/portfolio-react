@@ -9,7 +9,7 @@ class Portfolio extends Component {
 
 render() {
     return(
-        <div>
+        <div className="container">
             <h1>Portfolio</h1>
             {this.state.db.map(repo => (
                 <Card 
@@ -18,8 +18,11 @@ render() {
                 image = {repo.image}
                 link = {repo.link}
                 />
+                
             ))}
         </div>
-    )
+    );
 }
 }
+
+export default Portfolio;

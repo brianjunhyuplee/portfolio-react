@@ -2,7 +2,7 @@
     {
         "id" : 1,
         "name" : "Woof",
-        "image" : "https://github.com/brianjunhyuplee/Woof/blob/master/public/assets/gifs/search.gif",
+        "image" : "../images/search.gif",
         "link" : "https://github.com/brianjunhyuplee/Woof"
     },
     {

@@ -20,6 +20,7 @@ render() {
                 />
                 
             ))}
+            <a href="https://docs.google.com/document/d/1as8tFm7Y_KxGWlGcf6judwu9-DtdXOo64ZqrkU-qHsM/edit?usp=sharing">My Resume</a>
         </div>
     );
 }
